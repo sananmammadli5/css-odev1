@@ -1,0 +1,53 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: left;
+}
+
+ul li{
+    font-size: 25px;
+    margin-left: 25px;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    left: 500px;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: all 2s;
+    word-spacing: 2px;
+}
+
+a:hover,li:hover{
+    text-decoration:overline;
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+#welcome{
+    color: tomato;
+    text-align: center;
+    font-size: 50px;
+}
+
+div{
+    font-size: 25;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 20px;
+    margin: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+    text-align-last: right;
+}
